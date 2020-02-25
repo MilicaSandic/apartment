@@ -188,19 +188,19 @@ h2 span {
     padding-bottom: 20px;
 }
 
-.ion-social-twitter:hover {
+.fa-twitter:hover {
     color: #1da1f2;
 }
 
-.ion-social-whatsapp:hover {
+.fa-whatsapp:hover {
     color:  #25d366;
 }
 
-.ion-social-facebook:hover {
+.fa-facebook:hover {
     color: #1877f2;
 }
 
-.ion-social-instagram:hover {
+.fa-instagram:hover {
     color: #c32aa3;
 }
 
