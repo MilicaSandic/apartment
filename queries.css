@@ -1,0 +1,392 @@
+@media (min-width: 0) {
+    
+    h2 {
+        font-size: 30px;
+    }
+
+    #home-banner .text {
+        width: 95%;
+    }
+
+    #home-banner .text h2 {
+        font-size: 30px;
+    }
+
+    .main-menu {
+        display: none;
+    }
+
+    .aside-button {
+        display: none;
+    }
+
+    .mobile-button {
+        display: inline-block;
+    }
+
+    .container {
+        width: 95%;
+        margin: auto;
+    }
+
+    #max_people .box {
+        flex-basis: 95%;
+    }
+
+    #max_people .box {
+        flex-basis: 40%;
+        margin-bottom: 20px;
+    }
+
+    #max_people .pict img {
+        width: 15%;
+        margin-bottom: 10px;
+    }
+
+    #section-gallery .photos li {
+        display: block;
+        float: left;
+        width: 100%;
+    }
+
+    #about_us {
+        padding: 100px 0;
+    }
+
+    #about_us h2 {
+        padding-bottom: 50px;
+    }
+
+    #about_us .laptop .btn {
+        margin-bottom: 50px;
+        left: 30%;
+    }
+
+    #about_us .laptop {
+        flex-wrap: wrap;
+    }
+
+    #about_us .laptop .content,
+    #about_us .laptop .pict {
+        flex-basis: 95%;
+    }
+    
+    #section-testimonials .section-testimonial {
+        flex-wrap: wrap;
+    }
+
+    #section-testimonials .section-testimonial .col {
+        flex-basis: 95%;
+    }
+
+    #conttages .boxes .box {
+        margin-bottom: 19px;
+    }
+
+    #conttages .content .rotate {
+        transform: rotate(-90deg) translate(101px, -101px);
+    }
+
+    .boxes {
+        flex-direction: column;
+    }
+
+    #cottages_1 {
+        flex-wrap: wrap;
+        padding: 35px 0;
+    }
+
+    #cottages_1 .pict,
+    #cottages_1 .content {
+        flex-basis: 95%;
+    }
+    
+    #cottages_1 .content h2 {
+        font-size: 32px;
+    }
+
+    .form-control {
+        width: 70%;
+    }
+    
+    .form-inline {
+        flex-direction: column;
+    }
+
+}
+
+@media (min-width: 660px) {
+
+    #home-banner .text h2 {
+        font-size: 55px;
+    }
+
+    #max_people .box {
+        flex-basis: 20%;
+    }
+
+    #max_people .pict img {
+        width: 25%;
+        margin-bottom: 10px;
+    }
+
+    #about_us .laptop .btn {
+        left: 35%;
+    }
+
+    #conttages .content .rotate {
+        transform: rotate(-90deg) translate(146px, -146px);
+    }
+
+    .form-control {
+        width: 50%;
+    }
+
+    .form-inline {
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 768px) {
+
+    #max_people .box {
+        flex-basis: 40%;
+    }
+
+    #max_people .pict img {
+        width: 25%;
+        margin-bottom: 10px;
+    }
+
+    #section-gallery .photos li {
+        display: block;
+        float: left;
+        width: 50%;
+    }
+
+    #section-testimonials .section-testimonial .col {
+        padding: 0 2%;
+        margin: 0 auto;
+        width: 100%; 
+    } 
+
+    #about_us .laptop .btn {
+        left: 40%;
+    }
+
+
+    #conttages .content .rotate {
+        transform: rotate(-90deg) translate(182px, -182px);
+    }
+    
+    #cottages_1 {
+        padding: 35px 0;
+    }
+
+    .form-control {
+        width: 40%;
+    }
+
+    .form-inline {
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    h2 {
+        font-size: 61px;
+    }
+
+    #home-banner .text {
+        width: 85%;
+    }
+
+    .main-menu {
+        display: flex;
+    }
+
+    .mobile-button {
+        display: none;
+    }
+
+    .aside-button {
+        display: block;
+    }
+
+    #section-gallery .photos li {
+        display: block;
+        float: left;
+        width: 50%;
+    }
+
+    #about_us h2 {
+        padding-bottom: 0;
+    }
+
+    #section-testimonials .section-testimonial .col {
+        flex-basis: 30%;
+        padding: 0 2%;
+        margin: 0 auto;
+    } 
+
+    #conttages .content .rotate {
+        transform: rotate(-90deg) translate(51px, -50px);
+    }
+
+    .boxes {
+        flex-direction: row;
+    }
+
+    #cottages_1 {
+        padding: 35px 0;
+    }
+
+    #cottages_1 .content h3 {
+        font-size: 40px;
+    }
+
+    .form-control {
+        width: 30%;
+    } 
+    
+    .form-inline {
+        flex-direction: row;
+    }
+}
+
+
+@media (min-width: 1085px) {
+
+    #home-banner .text {
+        width: 70%;
+    }
+
+    #home-banner .text h2 {
+        font-size: 66px;
+    }
+
+    #section-gallery .photos li {
+        display: block;
+        float: left;
+        width: 25%;
+    }
+
+    #about_us h2 {
+        padding-bottom: 0;
+    }
+
+    #cottages_1 {
+        padding: 35px 0;
+    }
+
+    .form-inline {
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .container {
+        width: 1200px;
+    }
+
+    #max_people .box {
+        flex-basis: 22%;
+    }
+
+    #section-gallery .photos li {
+        display: block;
+        float: left;
+        width: 25%;
+    }
+
+    #about_us h2 {
+        padding-bottom: 0;
+    }
+
+    #about_us .laptop .content {
+        flex-basis: 40%;
+    }
+    
+    #about_us .laptop .pict {
+        flex-basis: 40%;
+    }
+
+    #about_us .laptop .btn {
+        left: 32%;
+    }
+
+
+    #section-testimonials .section-testimonial .col {
+        flex-basis: 30%;
+        padding: 0 2%;
+        margin: 0 auto;
+    } 
+
+    #conttages .content .rotate {
+        transform: rotate(-90deg) translate(70px, -71px);
+    }
+
+    #cottages_1 {
+        padding-top: 35px;
+        padding-bottom: 7px;
+    }
+
+    #cottages_1 .pict {
+        flex-basis: 40%;
+    }
+
+    #cottages_1 .content {
+        flex-basis: 40%;
+    }
+
+    .form-inline {
+        flex-direction: row;
+    }
+}
+
+
+@media (min-width: 1440px) {
+
+    #aside {
+        display: block;
+    }
+
+    #home-banner .text {
+        width: 85%;
+    }
+
+    #home-banner .text h2 {
+        font-size: 98px;
+    }
+
+    #section-gallery .photos li {
+        display: block;
+        float: left;
+        width: 25%;
+    }
+
+    .form-inline {
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 1900px) {
+
+    #home-banner .text h2 {
+        font-size: 115px;
+    }
+
+    #home-banner .item img {
+        width: 100%;
+    }
+
+    #about_us .laptop .btn {
+        left: 40%;
+    }
+
+    .form-inline {
+        flex-direction: row;
+    }
+}
